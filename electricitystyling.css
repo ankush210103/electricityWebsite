@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+
+
+}
+.main{
+    width: 100%;
+    
+    background-image: url("10.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 180vh;
+    width: 100%;
+    background-position: center;
+    
+}
+
+.navbar{
+
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+width: none;
+float: left;
+height: none;
+
+
+}
+.logo{
+
+    color:rgb(230, 239, 245);
+    font-size: 25px;
+    font-family: Arial;
+    padding-left: 50px;
+    padding-right: 70px;
+    float: left;
+    padding-top: 10px;
+    text-align: left;
+    margin-top: 5px;
+    margin-right: 50px;
+    
+    
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    font-weight: bold;
+    transition: 0.5s;
+
+
+}
+
+ul{
+float: left;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 320px;
+    margin-top: 27;
+    font-size: 14px;
+    
+}
+ul li a{
+display: block;
+text-decoration: none;
+color:aliceblue;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: bold;
+transition: 0.4s ease-in-out;
+padding: 14px 20px;
+text-align: center;
+color:coral;
+background: white;
+border-radius: 10px;
+
+}
+ul li a:hover{
+    color:#fff;
+    font-size: 150%;
+   transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+    box-shadow: inset;
+    transition-property: all;
+    background: #000;
+   
+
+}
+.logo:hover{
+ color: coral;
+
+font-size: 22px;
+
+}
+.content{
+    width:580px;
+    height: fit-content;
+    height:auto;
+    margin: auto;
+    color: #fff;
+    position:relative;
+    
+    position:absolute;
+    font-weight: bold;
+    top: 120px;
+
+    
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s ease;
+
+
+
+}
+.h1{
+
+    left: 300px;
+}
+
+
+
+
+.span{
+    border: #fff;
+    border-radius: 10px;
+    border-style: solid;
+    border-right: 10px; 
+    font-size: 15px; 
+    font-family: Arial;
+    border: #000;
+    
+    
+    
+}
+.span:hover{
+    background-color: coral;
+    
+    transition: 0.3 ;
+
+}
+.content .cn a{
+text-decoration: none;
+color: #000;
+transition: 0.9s ease;
+
+}
+.cn:hover{
+    background-color: #fff;
+    
+}
+.form{
+    width: 250px;
+    height: 380px;
+     background: linear-gradient(to top, rgba(3, 0, 8, 0.8)50%,rgba(4, 1, 11, 0.8)50%); 
+    position:absolute;
+    top: 150px;
+    left: 650px;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    
+}
+.form input{
+    width:200px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 3px solid orange;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.form input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+.btnn{
+    width:200px;
+    height:40px;
+    background: orangered;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color:#fff;
+    transition: 0.s ease;
+    text-align: center;
+
+}
+.btnn:hover{
+    background: #fff;
+    color:coral;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: coral;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.form1{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position:absolute;
+    top: 155px;
+    left: 1100px;
+    border-radius: 10px;
+    padding: 25px;
+    
+    
+
+}
+.form1 h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: orange;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+    
+}
+.form1 a{
+font-size: 20px;
+
+line-height: 70px;
+color: white;
+padding: 15px;
+border-bottom: 3px solid orange;
+background: transparent;
+
+}
+.form1 a:hover{
+
+    color: white;
+   font-size: 125%;
+}
+.consuption{
+    color: rgb(240, 238, 238);
+    width: 350px;
+    height: 400px;
+     background: linear-gradient(to top, rgba(3, 0, 8, 0.8)50%,rgba(4, 1, 11, 0.8)50%); 
+    position:absolute;
+    top: 650px;
+    left: 1000px;
+    border-radius: 10px;
+    padding: 30px;
+}
+.consuption h2{
+
+color: coral;
+background-color: #fff;
+width: 350px;
+border-radius: 10px;
+margin: 2px;
+padding: 8px;
+text-align: center;
+font-family: sans-serif;
+font-size: 20px;
+
+}
+
+.consuption li{
+    font-size: 18px;
+    text-align: center;
+}
+.consuption li a{
+ 
+    color: coral;
+    background-color: #fff;
+    left: 950px;
+    border-radius: 10px;
+    width: 300px;
+    padding: 5px;
+    text-decoration: none;
+
+}
+.consuption li a:hover{
+    background-color: #fff;
+    color: coral;
+    font-size: 125%;
+    background-color: #000;
+}
+
+
+.faq1{
+
+    background: linear-gradient(to top, rgba(3, 0, 8, 0.8)50%,rgba(4, 1, 11, 0.8)50%); 
+    font-size: 18px;
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    top: 700px;
+    border-radius: 10px;
+}
+.faq1 h2{
+    color: coral;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    width: 450px;
+}
+
+
+
+
+
